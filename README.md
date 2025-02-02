@@ -6,3 +6,12 @@
 
 ## **Project Summary**
 Leveraging the Bing News API within Azure, this project develops a robust end-to-end Data Engineering solution using Microsoft Fabric. It focuses on analyzing real-time news, performing sentiment analysis on each news item, and generating interactive dashboards to effectively visualize key insights.
+
+To break it down, this project involves six key steps:
+
+1.	Create a Bing Search Resource in Azure
+2.	Data Ingestion
+3.	Data Transformation with Incremental Loading
+4.	Sentiment Analysis with Incremental Loading
+5.	Data Visualization and Reporting in Power BI
+6.	Set up Alerts with Data Activator with notifications on Teams/Email
