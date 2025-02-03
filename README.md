@@ -75,12 +75,25 @@ Follow these steps to set up and run the project locally or in the cloud.
    * Connect Power BI to OneLake.
    * Build interactive reports and dashboards.
 6. Enable Data Activator for real-time alerts.
+
+## **📈 KPI Metrics**
+
+For the visualization, the following KPIs are measured:
+* Total published news (positive, negative, neutral, and mixed).
+* Percentage of each sentiment (positive, negative, neutral, and mixed).
+
+Below are some snapshots of the Power BI dashboards and Spark Notebooks used in this project. 🚀
+
+![Dashboard](https://github.com/user-attachments/assets/0bc6ac3c-4129-494e-b685-f788ad663a34)
+![Pipeline](https://github.com/user-attachments/assets/365c8b66-6072-4b75-9ca2-2fcb0ae9ddc4)
+![Overall Structure of Project](https://github.com/user-attachments/assets/fe7c81c7-a431-41d5-9cbf-114103baac54)
   
 ## **📚 Resources & Further Reading**
 
 * Microsoft Fabric Documentation: [Learn More](https://learn.microsoft.com/en-us/fabric/)
 * Azure Cognitive Services: [Text Analytics API](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
 * Medium Blog Post: [Step-by-Step Guide](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+* LinkedIn Post: [Post](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
 
 
