@@ -13,17 +13,13 @@ To break it down, this project involves six key steps:
 5.	Data Visualization and Reporting in Power BI
 6.	Set up Alerts with Data Activator with notifications on Teams/Email
 
-A step by step guide to run this pipeline
-
-![Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+A step by step guide to run this pipeline: ![Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
 ## **💡 Why This Project?**
 
-**Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
-
-**Comprehensive Tech Stack:** Covers API data ingestion, cloud storage, distributed computing, data transformation, and reporting.
-
-**Hands-On Learning:** Integrates key Azure services with Fabric to handle structured and unstructured data efficiently.
+* **Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
+* **Comprehensive Tech Stack:** Covers API data ingestion, cloud storage, distributed computing, data transformation, and reporting.
+* **Hands-On Learning:** Integrates key Azure services with Fabric to handle structured and unstructured data efficiently.
 
 ## **Architecture**
 
@@ -49,7 +45,7 @@ A step by step guide to run this pipeline
 * Spark Notebooks - Interactive analysis
 
 ## **🚀 Data Source**
-Bing latest news data was loaded from Bing Search Resource News Search APIs v7 (https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
+Bing latest news data was loaded from Bing Search Resource News Search APIs v7 ![Data](https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
 
 ## **🛠 Installation & Usage**
 
@@ -71,10 +67,11 @@ Follow these steps to set up and run the project locally or in the cloud.
 * Enable Data Activator for real-time alerts.
 
 1. Clone the repository
+  
 2. Set up Azure resources:
-* Create a Resource Group in Azure.
-* Deploy Bing Search v7 API in Azure Marketplace.
-* Set up OneLake storage.
+   * Create a Resource Group in Azure.
+   * Deploy Bing Search v7 API in Azure Marketplace.
+   * Set up OneLake storage.
 3. Configure Spark Notebooks & ADF Pipelines:
 * Import provided Spark Notebooks into Synapse.
 * Set up ADF Pipelines for automated ingestion.
