@@ -20,7 +20,9 @@ https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engi
 ## **Why This Project?**
 
 **Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
+
 **Comprehensive Tech Stack:** Covers API data ingestion, cloud storage, distributed computing, data transformation, and reporting.
+
 **Hands-On Learning:** Integrates key Azure services with Fabric to handle structured and unstructured data efficiently.
 
 ## **Architecture**
@@ -36,7 +38,46 @@ Performing sentiment analysis using Text Analytics
 Visualizing news trends and insights with Power BI
 Implementing incremental data loading and real-time alerts with Data Activator
 
+## **🛠 Technologies, Tools, and Frameworks**
 
+Azure Data Factory - ETL pipeline automation
+OneLake & Delta Lake - Scalable data storage
+Synapse Data Engineering - Data transformation
+Text Analytics - Sentiment analysis
+Power BI - Data visualization
+Data Activator - Real-time notifications
+Spark Notebooks - Interactive analysis
+
+## **🛠 Installation & Usage**
+
+Follow these steps to set up and run the project locally or in the cloud.
+
+**Prerequisites**
+
+Azure Subscription with access to Fabric services.
+
+Bing News Search API Key (F1 Free Tier recommended for testing).
+
+Basic understanding of Python, SQL, and Spark.
+
+Quick Start
+
+Clone this repository.
+
+Set up an Azure resource group and provision Bing Search v7 API.
+
+Configure Azure Data Factory and Synapse to ingest and process data.
+
+Use Power BI to explore and visualize trends in the news dataset.
+## **📚 Resources & Further Reading**
+
+Microsoft Fabric Documentation: Learn More
+
+Azure Cognitive Services: Text Analytics API
+
+Microsoft Documentation: Learn more about Bing API and Azure Data Engineering tools.
+
+Blog Post: Read a deep dive into the architecture and implementation of this project.
 
 
 
