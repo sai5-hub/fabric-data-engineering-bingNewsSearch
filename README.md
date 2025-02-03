@@ -13,7 +13,7 @@ To break it down, this project involves six key steps:
 
 A step by step guide to run this pipeline
 
-[https://medium.com/p/298012488165/edit](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+[https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165]
 
 
 ![Screenshot (419)](https://github.com/user-attachments/assets/a414ca11-89d6-44f2-9a01-7ff3b1df2cbe)
