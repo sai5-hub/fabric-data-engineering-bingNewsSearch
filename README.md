@@ -15,9 +15,9 @@ To break it down, this project involves six key steps:
 
 A step by step guide to run this pipeline
 
-https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165
+![Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
-## **Why This Project?**
+## **💡 Why This Project?**
 
 **Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
 
@@ -33,20 +33,23 @@ https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engi
 
 * Accessing and ingesting news data from Bing API
 * Processing and transforming news data using Spark
-*Storing data efficiently in Delta Lake for optimized querying
-*Performing sentiment analysis using Text Analytics
-*Visualizing news trends and insights with Power BI
-*Implementing incremental data loading and real-time alerts with Data Activator
+* Storing data efficiently in Delta Lake for optimized querying
+* Performing sentiment analysis using Text Analytics
+* Visualizing news trends and insights with Power BI
+* Implementing incremental data loading and real-time alerts with Data Activator
 
 ## **🛠 Technologies, Tools, and Frameworks**
 
-Azure Data Factory - ETL pipeline automation
-OneLake & Delta Lake - Scalable data storage
-Synapse Data Engineering - Data transformation
-Text Analytics - Sentiment analysis
-Power BI - Data visualization
-Data Activator - Real-time notifications
-Spark Notebooks - Interactive analysis
+* Azure Data Factory - ETL pipeline automation
+* OneLake & Delta Lake - Scalable data storage
+* Synapse Data Engineering - Data transformation
+* Text Analytics - Sentiment analysis
+* Power BI - Data visualization
+* Data Activator - Real-time notifications
+* Spark Notebooks - Interactive analysis
+
+## **🚀 Data Source**
+Bing latest news data was loaded from Bing Search Resource News Search APIs v7 (https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
 
 ## **🛠 Installation & Usage**
 
@@ -54,64 +57,42 @@ Follow these steps to set up and run the project locally or in the cloud.
 
 **Prerequisites**
 
-Azure Subscription with access to Fabric services.
+* Azure Subscription with access to Fabric services.
+* Bing News Search API Key (F1 Free Tier recommended for testing).
+* Basic understanding of Python, SQL, and Spark.
 
-Bing News Search API Key (F1 Free Tier recommended for testing).
+**Quick Start**
 
-Basic understanding of Python, SQL, and Spark.
+* Clone this repository.
+* Set up an Azure resource group and provision Bing Search v7 API.
+* Configure Data Factory and Synapse to ingest and process data.
+* Execute sentiment classification on ingested news.
+* Use Power BI to explore and visualize trends in the news dataset.
+* Enable Data Activator for real-time alerts.
 
-Quick Start
-
-Clone this repository.
-
-Set up an Azure resource group and provision Bing Search v7 API.
-
-Configure Azure Data Factory and Synapse to ingest and process data.
-
-Use Power BI to explore and visualize trends in the news dataset.
+1. Clone the repository
+2. Set up Azure resources:
+* Create a Resource Group in Azure.
+* Deploy Bing Search v7 API in Azure Marketplace.
+* Set up OneLake storage.
+3. Configure Spark Notebooks & ADF Pipelines:
+* Import provided Spark Notebooks into Synapse.
+* Set up ADF Pipelines for automated ingestion.
+4. Run Sentiment Analysis:
+* Configure Azure Cognitive Services API.
+* Execute sentiment classification on ingested news.
+5. Visualize in Power BI:
+* Connect Power BI to OneLake.
+* Build interactive reports and dashboards.
+6. Enable Data Activator for real-time alerts.
+  
 ## **📚 Resources & Further Reading**
 
-Microsoft Fabric Documentation: Learn More
-
-Azure Cognitive Services: Text Analytics API
-
-Microsoft Documentation: Learn more about Bing API and Azure Data Engineering tools.
-
-Blog Post: Read a deep dive into the architecture and implementation of this project.
+* Microsoft Fabric Documentation: ![Learn More](https://learn.microsoft.com/en-us/fabric/)
+* Azure Cognitive Services: ![Text Analytics API](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
+* Medium Blog Post: ![Step-by-Step Guide](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
 
 
 
 
-## **Technical Skills**
-
-
-
-## **Data Source**
-Bing latest news data was loaded from Bing Search Resource News Search APIs v7 (https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
-
-
-## **Approach**
-1. Create a Bing Search Resource in Azure:
-I created rg-bing-data-analytics resource group in Azure Subscription 1, and used the marketplace to search for the Bing Search v7 API to create a Bing Search resource. Selected F1 free tier with 1,000 monthly calls.
-
-2. Data Ingestion:
-As our data lake, I created a Microsoft Fabric Lakehouse called the bing_olympic_news_db which I connected the Bing Search resource API and also configured the Source and Destination.
-
-Configuring the Data Source  To connect to the source data, I use the RestAPI connection available in Fabric to connect to the Bing Search resource API in Azure.
-Setting the Data Destination. For the Destination, I set the destination to the bing_olympic_news_db Lakehouse I had created earlier. I also created a file path called olympic-news.json and set the file format to JSON.
-
-3. Data Transformation with Incremental Loading:
-I use the spark job within Microsoft Fabric for this and I also implement a Type 1 SCD to load our data into the Lakehouse incrementally.
-
-4. Sentiment Analysis with Incremental Loading:
-For the Sentiment Analysis, I use SynapseML formerly (MMLSpark) which is an open-source library that is available within Microsoft Fabric. It is a pre-built intelligent model for our machine learning task and predicts the Olympic news sentiments based on the news description column which has a detailed description of the news article as seen above.
-
-5. Schedule Refresh:
-Since the news data is live, there is a need to schedule its refresh every morning at 7 am in Data Factory. This refresh covers the data Ingestion (pipeline), ETL_process_olympic_news (notebook), and olympic_news_sentiment_analysis.ipynb (notebook) The refresh schedule is shown here 👇
-
-6. Data Visualization in Power BI:
-Below is the Data Visualization and report of the Olympic news for the past 7 days as at when I performed this analysis. Over 100 news was published and only 17% of it has positive sentiments.
-
-7. Set up Alerts with Data Activator with notifications on Microsoft Teams:
-I created an alert called Positive Alert Item and I would like to receive a Teams message alert when the Positive Sentiment is greater than 17%.
