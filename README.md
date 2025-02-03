@@ -1,6 +1,14 @@
 # **Bing News Search — An End-to-End Azure Data Engineering Project in Microsoft Fabric**
 
-Leveraging the Bing News API within Azure, this project develops a robust end-to-end Data Engineering solution using Microsoft Fabric. It focuses on analyzing real-time news, performing sentiment analysis on each news item, and generating interactive dashboards to effectively visualize key insights.
+
+
+A step by step guide to run this pipeline
+
+https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165
+
+🌟 About This Project
+
+Utilizing the Bing News API within Azure, the project builds a comprehensive end-to-end Data Engineering solution using Microsoft Fabric. The goal is to analyze the latest news, determine the sentiment of each news item, and create interactive dashboards that effectively visualize the insights.
 
 To break it down, this project involves six key steps:
 
@@ -11,25 +19,25 @@ To break it down, this project involves six key steps:
 5.	Data Visualization and Reporting in Power BI
 6.	Set up Alerts with Data Activator with notifications on Teams/Email
 
-A step by step guide to run this pipeline
 
-[https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165]
+🔑 Key Features & Learnings
 
+Accessing and ingesting news data from Bing API
+
+Processing and transforming news data using Spark
+
+Storing data efficiently in Delta Lake for optimized querying
+
+Performing sentiment analysis using Text Analytics
+
+Visualizing news trends and insights with Power BI
+
+Implementing incremental data loading and real-time alerts with Data Activator
 
 ![Screenshot (419)](https://github.com/user-attachments/assets/a414ca11-89d6-44f2-9a01-7ff3b1df2cbe)
 
 
-## **Project Summary**
 
-
-To break it down, this project involves six key steps:
-
-1.	Create a Bing Search Resource in Azure
-2.	Data Ingestion
-3.	Data Transformation with Incremental Loading
-4.	Sentiment Analysis with Incremental Loading
-5.	Data Visualization and Reporting in Power BI
-6.	Set up Alerts with Data Activator with notifications on Teams/Email
 
 
 ## **Technical Skills**
