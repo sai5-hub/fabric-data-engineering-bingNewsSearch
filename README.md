@@ -95,6 +95,9 @@ Below are some snapshots of the Power BI dashboards and Spark Notebooks used in 
 * Medium Blog Post: [Step-by-Step Guide](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 * LinkedIn Post: [Post](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
+## **🎯Summary**
+
+This project offered an exciting opportunity to leverage Microsoft Fabric's integrated data services for building an end-to-end Data Engineering solution. The project involved utilizing the Bing News API for real-time news data ingestion, transformation, and sentiment analysis. With the use of tools like Azure Data Factory, OneLake, Spark Notebooks, Synapse Data Engineering, Text Analytics, Delta Lake, Power BI, and Data Activator, the solution was designed to process and visualize news data through interactive dashboards. The project also incorporated features like incremental loading and real-time alerts based on sentiment analysis, providing valuable insights for users.
 
 
 
