@@ -13,7 +13,7 @@ To break it down, this project involves six key steps:
 5.	Data Visualization and Reporting in Power BI
 6.	Set up Alerts with Data Activator with notifications on Teams/Email
 
-A step by step guide to run this pipeline: ![Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+A step by step guide to run this pipeline: [Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
 ## **💡 Why This Project?**
 
@@ -45,7 +45,7 @@ A step by step guide to run this pipeline: ![Medium Article](https://medium.com/
 * Spark Notebooks - Interactive analysis
 
 ## **🚀 Data Source**
-Bing latest news data was loaded from Bing Search Resource News Search APIs v7 ![Data](https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
+Bing latest news data was loaded from Bing Search Resource News Search APIs v7 [Data](https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
 
 ## **🛠 Installation & Usage**
 
@@ -59,13 +59,6 @@ Follow these steps to set up and run the project locally or in the cloud.
 
 **Quick Start**
 
-* Clone this repository.
-* Set up an Azure resource group and provision Bing Search v7 API.
-* Configure Data Factory and Synapse to ingest and process data.
-* Execute sentiment classification on ingested news.
-* Use Power BI to explore and visualize trends in the news dataset.
-* Enable Data Activator for real-time alerts.
-
 1. Clone the repository
   
 2. Set up Azure resources:
@@ -73,21 +66,21 @@ Follow these steps to set up and run the project locally or in the cloud.
    * Deploy Bing Search v7 API in Azure Marketplace.
    * Set up OneLake storage.
 3. Configure Spark Notebooks & ADF Pipelines:
-* Import provided Spark Notebooks into Synapse.
-* Set up ADF Pipelines for automated ingestion.
+   * Import provided Spark Notebooks into Synapse.
+   * Set up ADF Pipelines for automated ingestion.
 4. Run Sentiment Analysis:
-* Configure Azure Cognitive Services API.
-* Execute sentiment classification on ingested news.
+   * Configure Azure Cognitive Services API.
+   * Execute sentiment classification on ingested news.
 5. Visualize in Power BI:
-* Connect Power BI to OneLake.
-* Build interactive reports and dashboards.
+   * Connect Power BI to OneLake.
+   * Build interactive reports and dashboards.
 6. Enable Data Activator for real-time alerts.
   
 ## **📚 Resources & Further Reading**
 
-* Microsoft Fabric Documentation: ![Learn More](https://learn.microsoft.com/en-us/fabric/)
-* Azure Cognitive Services: ![Text Analytics API](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
-* Medium Blog Post: ![Step-by-Step Guide](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+* Microsoft Fabric Documentation: [Learn More](https://learn.microsoft.com/en-us/fabric/)
+* Azure Cognitive Services: [Text Analytics API](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
+* Medium Blog Post: [Step-by-Step Guide](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
 
 
