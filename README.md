@@ -1,6 +1,6 @@
 # **Bing News Search — An End-to-End Azure Data Engineering Project in Microsoft Fabric**
 
-🌟 ## **About This Project**
+🌟 **About This Project**
 
 Utilizing the Bing News API within Azure, the project builds a comprehensive end-to-end Data Engineering solution using Microsoft Fabric. The goal is to analyze the latest news, determine the sentiment of each news item, and create interactive dashboards that effectively visualize the insights.
 
