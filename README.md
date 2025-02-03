@@ -31,12 +31,12 @@ https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engi
 
 ## **🔑 Key Features & Learnings**
 
-Accessing and ingesting news data from Bing API
-Processing and transforming news data using Spark
-Storing data efficiently in Delta Lake for optimized querying
-Performing sentiment analysis using Text Analytics
-Visualizing news trends and insights with Power BI
-Implementing incremental data loading and real-time alerts with Data Activator
+*Accessing and ingesting news data from Bing API
+*Processing and transforming news data using Spark
+*Storing data efficiently in Delta Lake for optimized querying
+*Performing sentiment analysis using Text Analytics
+*Visualizing news trends and insights with Power BI
+*Implementing incremental data loading and real-time alerts with Data Activator
 
 ## **🛠 Technologies, Tools, and Frameworks**
 
