@@ -20,26 +20,23 @@ https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engi
 ## **Why This Project?**
 
 **Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
-
 **Comprehensive Tech Stack:** Covers API data ingestion, cloud storage, distributed computing, data transformation, and reporting.
-
 **Hands-On Learning:** Integrates key Azure services with Fabric to handle structured and unstructured data efficiently.
+
+## **Architecture**
+
+![Screenshot (419)](https://github.com/user-attachments/assets/a414ca11-89d6-44f2-9a01-7ff3b1df2cbe)
 
 ## **🔑 Key Features & Learnings**
 
 Accessing and ingesting news data from Bing API
-
 Processing and transforming news data using Spark
-
 Storing data efficiently in Delta Lake for optimized querying
-
 Performing sentiment analysis using Text Analytics
-
 Visualizing news trends and insights with Power BI
-
 Implementing incremental data loading and real-time alerts with Data Activator
 
-![Screenshot (419)](https://github.com/user-attachments/assets/a414ca11-89d6-44f2-9a01-7ff3b1df2cbe)
+
 
 
 
