@@ -65,11 +65,10 @@ Follow these steps to set up and run the project locally or in the cloud.
    * Create a Resource Group in Azure.
    * Deploy Bing Search v7 API in Azure Marketplace.
    * Set up OneLake storage.
-3. Configure Spark Notebooks & ADF Pipelines:
-   * Import provided Spark Notebooks into Synapse.
+3. Configure Spark Notebooks & Pipelines:
    * Set up ADF Pipelines for automated ingestion.
+   * Import provided Spark Notebooks into Synapse.
 4. Run Sentiment Analysis:
-   * Configure Azure Cognitive Services API.
    * Execute sentiment classification on ingested news.
 5. Visualize in Power BI:
    * Connect Power BI to OneLake.
