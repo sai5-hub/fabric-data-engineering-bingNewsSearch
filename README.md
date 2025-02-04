@@ -13,9 +13,9 @@ To break it down, this project involves six key steps:
 5.	Data Visualization and Reporting in Power BI
 6.	Set up Alerts with Data Activator with notifications on Teams/Email
 
-A step by step guide to run this pipeline: [Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
+⚡A step by step guide to run this pipeline: [Medium Article](https://medium.com/@thondapu.sai5/bing-news-search-an-end-to-end-azure-data-engineering-project-in-microsoft-fabric-298012488165)
 
-## **💡 Why This Project?**
+## **❓ Why This Project?**
 
 * **Real-World Application:** Extracting valuable insights from news data using AI-driven sentiment analysis.
 * **Comprehensive Tech Stack:** Covers API data ingestion, cloud storage, distributed computing, data transformation, and reporting.
@@ -47,7 +47,7 @@ A step by step guide to run this pipeline: [Medium Article](https://medium.com/@
 ## **🚀 Data Source**
 Bing latest news data was loaded from Bing Search Resource News Search APIs v7 [Data](https://api.bing.microsoft.com/v7.0/news/search) available in Azure.
 
-## **🛠 Installation & Usage**
+## **👉 Installation & Usage**
 
 Follow these steps to set up and run the project locally or in the cloud.
 
