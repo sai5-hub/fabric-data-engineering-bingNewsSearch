@@ -98,6 +98,10 @@ Below are some snapshots of the Power BI dashboards and Spark Notebooks used in 
 
 This project offered an exciting opportunity to leverage Microsoft Fabric's integrated data services for building an end-to-end Data Engineering solution. The project involved utilizing the Bing News API for real-time news data ingestion, transformation, and sentiment analysis. With the use of tools like Azure Data Factory, OneLake, Spark Notebooks, Synapse Data Engineering, Text Analytics, Delta Lake, Power BI, and Data Activator, the solution was designed to process and visualize news data through interactive dashboards. The project also incorporated features like incremental loading and real-time alerts based on sentiment analysis, providing valuable insights for users.
 
+#### *Why Microsoft Fabric?* 
+Microsoft Fabric is a unified analytics platform that consolidates all Azure Data Services (known as items in Fabric) into a single environment. These services include Data Factory, Power BI, Lakehouse, Notebooks, Pipelines, and more.
+
+It seamlessly integrates with internal and external data sources, including Azure, AWS, GCP, Dataverse, and cloud platforms like Databricks and Snowflake. Fabric supports multiple programming languages, such as SQL, Python, Scala, and Java, making it a robust solution for data warehousing, ETL processes, and advanced data analytics.
 
 
 
